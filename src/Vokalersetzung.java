@@ -9,14 +9,14 @@ public class Vokalersetzung {
 			+ "auch nach meinem Willen leben. \n"
 			+ "Seine Worte und werke\n"
 			+ "merkt ich und den Brauch,\n"
-			+ "und mit Geisterstärke\n"
+			+ "und mit Geisterstaerke\n"
 			+ "tu ich Wunder auch.\n"
 			+ "Walle! walle\n"
 			+ "Manche Strecke,\n"
-			+ "daß, zum Zwecke,\n"
-			+ "Wasser fließe\n"
+			+ "dass, zum Zwecke,\n"
+			+ "Wasser fliesse\n"
 			+ "und mit reichem, vollem Schwalle\n"
-			+ "zu dem Bade sich ergieße.\n";
+			+ "zu dem Bade sich ergiesse.\n";
 	
 	private static String c = "a";
 	
@@ -25,6 +25,7 @@ public class Vokalersetzung {
 		System.out.print("Please enter a vowel:  ");
 		Scanner keyboard = new Scanner(System.in);
 		c = keyboard.nextLine();
+		keyboard.close();
 		
 		if(c.length() > 1){
 			System.out.println("That's more than one Character! I won't do this!!!");
